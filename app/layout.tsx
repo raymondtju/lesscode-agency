@@ -1,3 +1,4 @@
+import Navbar from "@/components/navbar";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import localFont from "next/font/local";
@@ -22,7 +23,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} ${ralewayFont.className}`}>
-        {children}
+        <div className="container mx-auto">
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );
