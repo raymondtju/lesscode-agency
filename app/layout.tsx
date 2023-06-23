@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 export const metadata = {
   title: "LessCode Agency",
   description: "LessCode Agency",
+  
 };
 
 const ralewayFont = localFont({
