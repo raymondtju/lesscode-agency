@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         rale: `var(--font-raleway)`,
+        inter: `var(--font-inter)`,
       },
     },
   },

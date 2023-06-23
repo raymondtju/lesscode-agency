@@ -12,9 +12,9 @@ const Arrowrd = ({ className }: { className: string }) => {
         id="Vector"
         d="M61.89 8.79377L61.89 65.2062L8.27557 65.2062M58.1668 61.2887L3.8077 4.09273"
         stroke="white"
-        stroke-width="7.19291"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="7.19291"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
